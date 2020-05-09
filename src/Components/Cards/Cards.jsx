@@ -84,7 +84,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
             <Typography varient="h5">
               <CountUp
                 start={0}
-                end={confirmed.value-(recovered.value+deaths.value)}
+                end={confirmed.value-(recovered.value)}
                 duration={2.5}
                 separator=","
               />

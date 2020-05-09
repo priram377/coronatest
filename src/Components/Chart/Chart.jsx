@@ -51,7 +51,7 @@ const Chart = ({data:{confirmed,recovered,deaths,active}, country}) => {
                 'rgba(255,0,0,0.5)',
                 'cyan',
               ],
-              data:[confirmed.value,recovered.value,deaths.value,confirmed.value-(recovered.value+deaths.value)]
+              data:[confirmed.value,recovered.value,deaths.value,confirmed.value-(recovered.value)]
             }]
           }}
           options={{
